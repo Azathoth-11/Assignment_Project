@@ -1,0 +1,48 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+header, footer {
+    background-color: #1F2937;
+}
+
+div > h1 {
+    font-size: 48px;
+    font-weight: 900;
+    color: #F9FAF8;
+}
+
+ul > li {
+    font-size:18px;
+    color: #E5E7EB;
+}
+
+div > button {
+    background-color: #3882F6; 
+    color: white;
+}
+
+div > p {
+    color: white;
+}
+
+.one div p {
+    color: black;
+}
+
+.one h2 {
+    font-size: 36px;
+    color: #1F2937;
+    font-weight: 900;
+}
+
+.two {
+    background-color: #E5E7EB;
+}
+.two p {
+    font-size: 36px;
+    font-style: italic;
+    color: #1F2937;
+}
