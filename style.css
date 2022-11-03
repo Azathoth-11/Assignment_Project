@@ -3,7 +3,17 @@
     margin: 0;
     padding: 0;
 }
+ul {
+    list-style: none;
+}
 
+button {
+    padding: 10px;
+    border-radius: 10px;
+
+}
+
+/* color and font-size  */
 header, footer {
     background-color: #1F2937;
 }
@@ -45,4 +55,105 @@ div > p {
     font-size: 36px;
     font-style: italic;
     color: #1F2937;
+}
+/* end of color and font-size  */
+
+
+
+
+
+
+
+
+
+/* start of layout  */
+nav, nav ul {
+    display: flex;
+    justify-content: space-around;
+}
+
+nav ul {
+    justify-content: space-between;
+}
+nav p {
+    font-size: 36px;
+    font-weight: 900;
+    color:white
+}
+
+header{
+    height: 400px;
+}
+
+.placeholder-flex {
+    width: 80%;
+    margin-top: 100px;
+    margin-left: 180px;
+    display: flex;
+    justify-content: space-around;
+}
+
+.placeholder {
+    border: 1px solid black;
+    height: 150px;
+    width: 200px;
+}
+
+
+section h2 {
+    text-align: center;
+    margin-bottom: 60px;
+    margin-top: 50px;
+}
+.one {
+    height: 200px;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.two {
+    height: 300px;
+    padding-left: 250px;
+}
+.two p {
+    width: 80%;   
+}
+.two span {
+    font-size: 36px;
+    font-weight: 900;
+    display: block;
+    margin-left: 800px;
+}
+
+.three {
+    height: 150px;
+    background-color: #3882f6;
+    border-radius: 10px;
+    width: 60%;
+    margin-left: 300px;
+    margin-top: 40px;
+    margin-bottom: 40px;
+    padding: 50px;
+    display: flex;
+    justify-content: space-around ;
+
+}
+.three button {
+    height: 40px;
+}
+/* end of main content  */
+
+
+
+/* footer  */
+footer {
+    height: 50px;
+    padding-top: 10px;
+
+}
+
+footer p {
+    color: white;
+    text-align: center;
+    
 }
